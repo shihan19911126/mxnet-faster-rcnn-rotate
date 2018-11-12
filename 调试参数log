@@ -1,0 +1,5 @@
+2018.11.12  14:12
+修改short side（600修改到800）
+
+2018.11.12 16:07
+再bbox.py中bbox_pred_rotate函数，修改加90度：    predict_theta=d_theta*180/math.pi+reference_theta[:,np.newaxis]+90
